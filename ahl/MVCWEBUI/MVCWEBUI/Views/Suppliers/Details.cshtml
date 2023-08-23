@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MVCWEBUI.Models.DB.Supplier>
+@{
+    ViewData["Title"] = "Details";
+}
+<h1>Details</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.SupplierId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.SupplierName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Phone)
+            </th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Güncelle</button>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Show Details</button>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Delete</button>

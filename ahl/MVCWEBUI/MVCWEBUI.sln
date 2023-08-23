@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWEBUI", "MVCWEBUI\MVCWEBUI.csproj", "{FFCD241E-1B61-42FE-8149-7483D4A27BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCD241E-1B61-42FE-8149-7483D4A27BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCD241E-1B61-42FE-8149-7483D4A27BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCD241E-1B61-42FE-8149-7483D4A27BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCD241E-1B61-42FE-8149-7483D4A27BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {878F6D76-0ADB-461C-B6D3-20B5F0C56480}
+	EndGlobalSection
+EndGlobal

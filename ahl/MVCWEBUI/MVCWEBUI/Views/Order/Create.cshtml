@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MVCWEBUI.Models.DB.Order>
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Create</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.OrderId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.CustomerId)
+            </th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Güncelle</button>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Show Details</button>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Delete</button>

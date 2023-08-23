@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MVCWEBUI.Models.DB.User>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>All Users</h1>
+@*@foreach (var k in Model)
+{
+    string NameSurname = k.Name + " " + k.Surname;
+    <h2>@NameSurname</h2>@Html.Raw("</br>")
+}*@
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+             @Html.DisplayNameFor(model=>model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Surname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Phone)
+            </th>
+        </tr>
+
+    </thead>
+    <tbody>
+          <button class="btn-warning rounded-pill px-3"action="Home/Index" type="button">Update</button>
+          <button class="btn-warning rounded-pill px-3"action="Home/Index" type="button">Show Details</button>
+          <button class="btn-warning rounded-pill px-3"action="Home/Index" type="button">Delete</button>
+                       @* <a href="Edit/@Users.UserID">BizimEdit </a>
+                        <a asp-action="Edit" asp-route-id="@Users.UserID">Update</a>
+                        <a asp-action="Details" asp-route-id="@Users.UserID">Show Detail</a>
+                        <a asp-action="Delete" asp-route-id="@Users.UserID">Delete</a>
+*@
+
+
+
+
+

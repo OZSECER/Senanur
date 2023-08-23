@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukkanAPI", "StoreAPI\DukkanAPI.csproj", "{308DED24-8DBC-46C4-9309-CBB4710C7F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukkanDal", "DukkanDal\DukkanDal.csproj", "{09A07C6D-E862-40B4-A618-4BCD3E2032A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{308DED24-8DBC-46C4-9309-CBB4710C7F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308DED24-8DBC-46C4-9309-CBB4710C7F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308DED24-8DBC-46C4-9309-CBB4710C7F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308DED24-8DBC-46C4-9309-CBB4710C7F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A07C6D-E862-40B4-A618-4BCD3E2032A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A07C6D-E862-40B4-A618-4BCD3E2032A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A07C6D-E862-40B4-A618-4BCD3E2032A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A07C6D-E862-40B4-A618-4BCD3E2032A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {301FC7D4-713D-4C4C-B811-593CE8B550A3}
+	EndGlobalSection
+EndGlobal

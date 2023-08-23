@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MVCWEBUI.Models.DB.Customer>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.CustomerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Phone)
+            </th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Güncelle</button>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Show Details</button>
+        <button class="btn-warning rounded-pill px-6" action="Home/Index" type="button">Delete</button>
